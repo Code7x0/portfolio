@@ -3,7 +3,7 @@ import "./globals.css";
 import ScrollProgress from "@/components/effects/ScrollProgress";
 
 export const metadata: Metadata = {
-  title: "[YOUR NAME] — Web Developer & Designer | Delhi, India",
+  title: "Sonu Kumar — Web Developer & Designer | Delhi, India",
   description:
     "I design and develop premium websites, Shopify stores, and custom web applications that help businesses look professional, build trust, and grow online.",
   keywords: [
@@ -11,19 +11,19 @@ export const metadata: Metadata = {
     "next.js developer", "react developer", "custom web applications",
     "website design india", "ecommerce developer",
   ],
-  authors:   [{ name: "[YOUR NAME]", url: "https://github.com/Code7x0" }],
-  creator:   "[YOUR NAME]",
+  authors:   [{ name: "Sonu Kumar", url: "https://github.com/Code7x0" }],
+  creator:   "Sonu Kumar",
   robots:    { index: true, follow: true },
   openGraph: {
     type:        "website",
     locale:      "en_IN",
-    siteName:    "[YOUR NAME] — Portfolio",
-    title:       "[YOUR NAME] — Premium Web Developer",
+    siteName:    "Sonu Kumar — Portfolio",
+    title:       "Sonu Kumar — Premium Web Developer",
     description: "Premium websites that turn visitors into customers. Web development, Shopify, and custom web applications.",
   },
   twitter: {
     card:        "summary_large_image",
-    title:       "[YOUR NAME] — Premium Web Developer",
+    title:       "Sonu Kumar — Premium Web Developer",
     description: "Premium websites that turn visitors into customers. Based in Delhi, India.",
   },
   alternates: { canonical: "/" },

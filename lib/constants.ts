@@ -11,7 +11,7 @@ export const SITE_CONFIG = {
   phone: "+91 8252167742",
   whatsapp: "https://wa.me/918252167742",
   github: "https://github.com/Code7x0",
-  linkedin: "#", // Update when available
+  linkedin: "https://www.linkedin.com/in/sonukumar-developer/",
   location: "Delhi, India",
   footerTagline: "Building premium websites and digital experiences.",
   copyright: "© 2026 All Rights Reserved.",
