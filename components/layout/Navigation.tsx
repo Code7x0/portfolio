@@ -171,15 +171,12 @@ export default function Navigation() {
             {/* Circle avatar */}
             <div style={{
               width: "56px", height: "56px", borderRadius: "50%",
-              background: "var(--text)",
+              background: "var(--border)",
               border: "none",
+              overflow: "hidden",
               flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center",
             }}>
-              <span style={{
-                fontFamily: "var(--font-display)", fontWeight: 700,
-                fontSize: "1.2rem", color: "var(--bg)",
-                letterSpacing: "-0.02em", userSelect: "none",
-              }}>K</span>
+              <img src="/nav-profile.png" alt={SITE_CONFIG.name} style={{ width: "100%", height: "100%", objectFit: "cover", filter: "grayscale(100%)" }} />
             </div>
 
             <div>

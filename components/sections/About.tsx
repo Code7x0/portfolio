@@ -111,15 +111,19 @@ export default function About() {
                 
                 {/* Photo Area */}
                 <div className="about-photo-area">
-                  <div className="about-photo-overlay desktop-img">
-                    <span style={{ color: "var(--text-dim)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}>
-                      [IMAGE: {SITE_CONFIG.name} VERTICAL]
-                    </span>
+                  <div className="about-photo-overlay desktop-img" style={{ background: "none" }}>
+                    <img
+                      src="/about-desktop.jpg"
+                      alt={SITE_CONFIG.name}
+                      style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                    />
                   </div>
-                  <div className="about-photo-overlay mobile-img">
-                    <span style={{ color: "var(--text-dim)", fontFamily: "var(--font-mono)", fontSize: "0.8rem" }}>
-                      [IMAGE: {SITE_CONFIG.name} HORIZONTAL]
-                    </span>
+                  <div className="about-photo-overlay mobile-img" style={{ background: "none" }}>
+                    <img
+                      src="/about-mobile.jpg"
+                      alt={SITE_CONFIG.name}
+                      style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                    />
                   </div>
                 </div>
               </div>

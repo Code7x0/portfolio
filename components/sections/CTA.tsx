@@ -50,7 +50,7 @@ function MagneticWhatsApp() {
           position: "absolute",
           inset: 0,
           borderRadius: "999px",
-          background: "#072b17",
+          background: "#000000",
           transform: "translateY(6px)",
           zIndex: 0,
         }} />
@@ -70,8 +70,8 @@ function MagneticWhatsApp() {
             display: "flex",
             alignItems: "center",
             gap: "14px",
-            background: "linear-gradient(to bottom, #1a7a42, #145c34)",
-            color: "#d4edda",
+            background: "linear-gradient(to bottom, #2a2a2a, #111111)",
+            color: "#ffffff",
             padding: "22px 52px",
             borderRadius: "999px",
             fontFamily: "var(--font-body)",
@@ -85,11 +85,11 @@ function MagneticWhatsApp() {
             transition: "background 0.3s ease, box-shadow 0.4s ease",
           }}
           onMouseEnter={e => {
-            (e.currentTarget as HTMLElement).style.background = "linear-gradient(to bottom, #1f9050, #177040)";
-            (e.currentTarget as HTMLElement).style.boxShadow = "inset 0 1px 0 rgba(255,255,255,0.12), 0 0 50px 8px rgba(20, 92, 52, 0.35)";
+            (e.currentTarget as HTMLElement).style.background = "linear-gradient(to bottom, #333333, #1a1a1a)";
+            (e.currentTarget as HTMLElement).style.boxShadow = "inset 0 1px 0 rgba(255,255,255,0.12), 0 0 50px 8px rgba(0, 0, 0, 0.5)";
           }}
           onMouseLeave={e => {
-            (e.currentTarget as HTMLElement).style.background = "linear-gradient(to bottom, #1a7a42, #145c34)";
+            (e.currentTarget as HTMLElement).style.background = "linear-gradient(to bottom, #2a2a2a, #111111)";
             (e.currentTarget as HTMLElement).style.boxShadow = "inset 0 1px 0 rgba(255,255,255,0.08)";
           }}
         >

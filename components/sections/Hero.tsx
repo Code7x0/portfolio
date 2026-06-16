@@ -57,7 +57,7 @@ export default function Hero() {
       id="hero"
       aria-label="Hero"
       style={{
-        minHeight: "100vh",
+        minHeight: "max(80vh, 500px)",
         display: "flex",
         flexDirection: "column",
         background: "var(--bg)",
@@ -174,7 +174,7 @@ export default function Hero() {
               style={{
                 flex: 1,
                 display: "flex",
-                padding: "clamp(32px, 5vw, 56px) clamp(20px, 4vw, 44px) 140px",
+                padding: "clamp(32px, 5vw, 56px) clamp(20px, 4vw, 44px) clamp(40px, 8vw, 140px)",
                 position: "relative",
                 gap: "clamp(12px, 2vw, 28px)",
               }}
@@ -215,26 +215,6 @@ export default function Hero() {
               {/* Main text content — left aligned */}
               <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
                 
-                {/* Author Name — thin monospace comment style */}
-                <motion.p
-                  initial={{ opacity: 0, x: -8 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5, ease, delay: 0.15 }}
-                  style={{
-                    fontFamily: "var(--font-mono)",
-                    fontWeight: 300,
-                    fontSize: "clamp(0.7rem, 1vw, 0.82rem)",
-                    color: "var(--text-dim)",
-                    letterSpacing: "0.1em",
-                    textTransform: "uppercase",
-                    marginBottom: "clamp(8px, 1.5vw, 16px)",
-                    lineHeight: "1.95",
-                    opacity: 0.6,
-                  }}
-                >
-                  // {SITE_CONFIG.name}
-                </motion.p>
-
                 {/* Editorial Headline — left aligned, with italic serif accent */}
                 <motion.h1
                   initial={{ opacity: 0, y: 15 }}
@@ -243,7 +223,7 @@ export default function Hero() {
                   style={{
                     fontFamily: "var(--font-display)",
                     fontWeight: 700,
-                    fontSize: "clamp(2rem, 5.5vw, 4.6rem)",
+                    fontSize: "clamp(2.6rem, 8vw, 4.6rem)",
                     lineHeight: 1.03,
                     letterSpacing: "-0.035em",
                     color: "var(--text)",
@@ -279,7 +259,7 @@ export default function Hero() {
                   style={{
                     fontFamily: "var(--font-body)",
                     fontWeight: 400,
-                    fontSize: "clamp(0.9rem, 1.3vw, 1.1rem)",
+                    fontSize: "clamp(1.1rem, 2.5vw, 1.25rem)",
                     lineHeight: 1.65,
                     color: "var(--text-sub)",
                     marginTop: "clamp(16px, 2.5vw, 28px)",
